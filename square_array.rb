@@ -11,8 +11,8 @@ def square_array(array)
     i+=1
   end
 
-  return squarred
+puts squarred
 
 end
 
-puts square_array[1,2,3] # => [1,4,9])
+square_array[1,2,3] # => [1,4,9])
