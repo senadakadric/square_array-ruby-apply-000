@@ -2,12 +2,17 @@ def square_array(array)
 
   squarred = []
 
-  i = 0
-  while i < array.length
-    squarred << array[i] ** 2
+# using a while loop to square the array
+#  i = 0
+#  while i < array.length
+#    squarred << array[i] ** 2
+#
+#    i+=1
+#  end
 
-    i+=1
-  end
+array.each do |num|
+squarred << num ** 2
+end
 
 return squarred
 
