@@ -5,7 +5,7 @@ def square_array(array)
 
   i = 0
   while i < array.length
-    numsquare = array[i] **2
+    numsquare = array[i] ** array[i]
     squarred << numsquare
 
     i+=1
