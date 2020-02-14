@@ -11,7 +11,7 @@ def square_array(array)
     i+=1
   end
 
-puts squarred
+return squarred
 
 end
 
