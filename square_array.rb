@@ -15,4 +15,4 @@ puts squarred
 
 end
 
-square_array[1,2,3] # => [1,4,9])
+# square_array[1,2,3] # => [1,4,9])
